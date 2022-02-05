@@ -6,6 +6,6 @@ def draw_pic():
     x = np.linspace(0, 10, 100)
     y = np.sin(x)
     plt.plot(x, y)
-    # save the figure
-    plt.savefig('sin.png')
+    # save the figure to a my_test
+    plt.savefig('my_test/my_test.png')
 draw_pic()

@@ -23,7 +23,7 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: Xi'an Weather Report
-          body: "Weekly report wenxuanye"
+          body: file://result.html
           to: ${{ secrets.RECEIVER }}
           from: GitHub Actions
           content_type: text/html

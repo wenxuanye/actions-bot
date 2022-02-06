@@ -7,5 +7,7 @@ def draw_pic():
     y = np.sin(x)
     plt.plot(x, y)
     # save the figure to a my_test
+
     plt.savefig('my_test/my_test.png')
+    plt.show()
 draw_pic()
